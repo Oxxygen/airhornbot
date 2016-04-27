@@ -438,7 +438,7 @@ func playSound(play *Play, vc *discordgo.VoiceConnection) (err error) {
 
 func onReady(s *discordgo.Session, event *discordgo.Ready) {
 	log.Info("Recieved READY payload")
-	s.UpdateStatus(0, "*Creative Status Here*")
+	s.UpdateStatus(0, "Dank Memes")
 }
 
 func onGuildCreate(s *discordgo.Session, event *discordgo.GuildCreate) {
